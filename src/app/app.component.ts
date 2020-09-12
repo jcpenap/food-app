@@ -10,8 +10,4 @@ export class AppComponent {
   title = 'food-app';
   featureSelected;
 
-  onNavigate(feature: string) {
-    this.featureSelected = feature;
-  }
-
 }
